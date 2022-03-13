@@ -15,7 +15,7 @@ int main(void)
 
 	char d = '0';
 
-	while (d <= 9)
+	while (d <= '9')
 	{
 		putchar(d);
 		d++;
@@ -24,7 +24,6 @@ int main(void)
 	for (c = 'a'; c <= 'f'; c++)
 	{
 		putchar(c);
-		c++;
 	}
 
 	putchar('\n');
