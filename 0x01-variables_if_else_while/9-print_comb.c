@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * Main -Entry point
+ * main -Entry point
  * Description: a program that prints all possible
  * combinations of single numbers
  *
@@ -13,7 +13,7 @@ int main(void)
 {
 	int i;
 
-	for (i = '0'; i <= 9; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
 	}
