@@ -13,27 +13,21 @@ int main(void)
 {
 	int c, i;
 
-	c = 48;
-
-	i = 48;
-	while (c < 58)
+	for (c = '0'; c <= '9'; c++)
 	{
-		i = c + 1;
-		while (i < 58)
+		for (i = '0'; i <= '9'; i++)
 		{
-			putchar (c);
-			if (c < 56 || i < 57)
+			if (c < i)
 			{
-				putchar (44);
-				putchar (32);
+				putchar(c);
+				putchar(i);
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-			i++;
 		}
-		c++;
-
 	}
-	putchar (10);
 	return (0);
 }
-
-
