@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main -entry point
+ * print_alphabet -entry point
  * Description: a program that prints all characters in lower case
  * Return: Always 0 (success)
  *
