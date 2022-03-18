@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * main - tests function that prints if integer is positive or negative
+ * main- Entry point
+ * @i: of type integer
  * Return: 0
  */
-void positive_or_negative(int i)
+int main(void)
 {
-	i = 98;
+	int i = 0;
 
 	positive_or_negative(i);
 	return (0);
