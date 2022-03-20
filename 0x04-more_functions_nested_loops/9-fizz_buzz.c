@@ -27,6 +27,7 @@ int main(void)
 		{
 			printf("%d\t", i);
 		}
+	}
 
 		return (0);
 }
