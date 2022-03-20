@@ -3,8 +3,6 @@
 /**
  * main- Entry point
  *
- * @i: of type integer
- *
  * Return: 0
  */
 int main(void)
