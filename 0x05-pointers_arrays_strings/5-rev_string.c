@@ -14,7 +14,7 @@ void rev_string(char *s)
 
 	while (s[i] != '\0')
 	{
-		i++ /*pass each member of string to stdout*/
+		i++; /*pass each member of string to stdout*/
 	}
 
 	length = i; /* i is now the position of each string member*/
