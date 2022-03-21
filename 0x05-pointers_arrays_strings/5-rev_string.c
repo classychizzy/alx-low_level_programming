@@ -17,15 +17,15 @@ void rev_string(char *s)
 		i++; /*pass each member of string to stdout*/
 	}
 
-	len = i; /* i is now the position of each string member*/
 	j = 0;
+	len = i; /* i is now the position of each string member*/
 	i--;
 
 	while (j < len/2)
 	{
-		temp = s[i];/* this helps to interchange the value for j and i*/
-		s[i] = s[j];
-		s[j] = temp;
+		temp = s[j};/* this helps to interchange the value for j and i*/
+		s[j] = s[i];
+		s[i] = temp;
 		i++;
 		j--;
 	}
