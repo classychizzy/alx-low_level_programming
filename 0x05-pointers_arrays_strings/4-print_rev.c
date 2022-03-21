@@ -19,7 +19,7 @@ void print_rev(char *s)
 	while (i > 0)
 	{
 		_putchar(s[i]);/* this prints each of the trimmed letters*/
-		i--
+		i--;
 	}
 	_putchar('\n'); /*prints the new line as a char*/
 }
