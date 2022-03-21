@@ -12,7 +12,7 @@ void rev_string(char *s)
 	int len;/* variable that stores string length */
 	int temp;/*variable used to temporarily store the value of string*/
 
-	while (s[i] != '\0')
+	while (*s[i] != '\0')
 	{
 		i++; /*pass each member of string to stdout*/
 	}
