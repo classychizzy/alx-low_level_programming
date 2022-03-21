@@ -7,8 +7,7 @@
  */
 void reset_to_98(int *n)
 {
-	int m = 98;
-	*n = &m;
+	*n = 98;
 
 	_putchar("the value of 'n' is: %d\n", *n);
 }
