@@ -21,7 +21,7 @@ void rev_string(char *s)
 	len = i; /* i is now the position of each string member*/
 	i--;
 
-	while (j < len/2)
+	while (j < len / 2)
 	{
 		temp = s[j];/* this helps to interchange the value for j and i*/
 		s[j] = s[i];
