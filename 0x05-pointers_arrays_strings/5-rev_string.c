@@ -23,7 +23,7 @@ void rev_string(char *s)
 
 	while (j < len/2)
 	{
-		temp = s[j};/* this helps to interchange the value for j and i*/
+		temp = s[j];/* this helps to interchange the value for j and i*/
 		s[j] = s[i];
 		s[i] = temp;
 		i++;
