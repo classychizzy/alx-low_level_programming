@@ -16,7 +16,7 @@ void print_rev(char *s)
 	}
 
 	i -= 1; /* trim the string*/
-	while (i > 0)
+	while (i > 1)
 	{
 		_putchar(s[i]);/* this prints each of the trimmed letters*/
 		i--;
