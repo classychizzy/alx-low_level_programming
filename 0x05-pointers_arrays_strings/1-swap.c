@@ -7,13 +7,12 @@
  *
  * @a: first pointer integer
  * @b: second pointer integer
- * @c: swap variable
  * Return: value
  *
  */
 void swap_int(int *a, int *b)
 {
-	int c;
+	int c; /*swap variable*/
 
 	c = *a;
 	*a = *b;
