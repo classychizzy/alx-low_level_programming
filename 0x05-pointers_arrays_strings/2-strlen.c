@@ -2,17 +2,17 @@
 /**
  *  _strlen- function to calculate the length of a string
  *  @s: identifier for string
- *  Return: 0 if success
+ *  Return: string
  */
 int _strlen(char *s)
 {
 	int i;
 
 	i = 0;
-	while (*(s + i)  != '/0')
+	while (*(s + i) != '/0')
 	{
-		i++
+		i++;
 	}
 
-	return (0);
+	return (i);
 }
