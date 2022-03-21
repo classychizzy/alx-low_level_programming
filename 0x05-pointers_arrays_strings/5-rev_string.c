@@ -18,7 +18,7 @@ void rev_string(char *s)
 	}
 
 	len = i; /* i is now the position of each string member*/
-	i = 0;
+	j = 0;
 	i--;
 
 	while (j < len/2)
