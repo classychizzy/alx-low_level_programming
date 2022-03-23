@@ -10,7 +10,7 @@ void print_to_98(int n)
 {
 	int i, j; /* numbers used to get the range of natural numbers*/
 	/* set 1st condition to target values that are > 98*/
-		if (n >= 98) /* target negative values*/
+		if (n > 98) /* target negative values*/
 		{
 			for (i = n; i >= 98; i--)
 			{
@@ -21,11 +21,11 @@ void print_to_98(int n)
 			}
 			
 		}
-		else if (n <= 98)
+		else if (n < 98)
 		{
 			for (j = n; j <= 98; j++)
 			{
-				if (j != 98)
+				if (j !=98)
 					printf("%d\t", j);
 				else if (j == 98)
 					printf("%d\t", j);
