@@ -7,7 +7,7 @@
 char *cap_string(char *a)
 {
 	int i, x;
-	char *seperator = ",;.!?\"(){} \n\t";
+	char *seperators = ",;.!?\"(){} \n\t";
 
 	for (i = 0; *(a + i) != '\0'; i++)
 	{
