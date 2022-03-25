@@ -8,8 +8,8 @@
 char *leet(char *a)
 {
 	int i, x;
-	int check[] = "aAeEoOtTlL";
-	int change[] = "4433007711";
+	char check[] = "aAeEoOtTlL";
+	char change[] = "4433007711";
 
 	for (i = 0; *(a + i) != '\0'; i++)
 	{
@@ -21,4 +21,5 @@ char *leet(char *a)
 			}
 	}
 
+	return (a);
 }
