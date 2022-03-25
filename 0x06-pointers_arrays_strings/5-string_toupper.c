@@ -8,10 +8,8 @@ char *string_toupper(char *r)
 {
 	int i;
 
-	for (i = 0; r[i] != '\0'; i++)
-	{
-		if ((r[i] >= 97) && (r[i] <= 122)
-				r[i] -= 32;
-
-	return c
+	for (i = 0; *(r + i) != '\0'; i++)
+		if (*(r + i) >= 'a' && *(r + i) <= 'z')
+			*(r + i) -= 32;
+	return (r);
 }
