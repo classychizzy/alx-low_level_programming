@@ -1,25 +1,24 @@
 #include "main.h"
 /**
  * square_root - find the natural square root
- * @i: number
+ * @n: number
  * @j: incrementor
  * Return: the number found
  */
-int square_root(int i, int j)
+int square_root(int n, int j)
 {
-	if (i * i == j)
+	if (j * j == n)
 	{
-		return (i);
+		return (j);
 	}
-	else if (i * i > j)
+	else if (j * j < n)
 	{
-		return (-1);
+		return (square_root(n, ++j));
 	}
-	else
-	{
-		return (square_root(i + 1, j));
-	}
+
+	return (-1);
 }
+
 /**
  *  _sqrt_recursion - function that returns the square root of a natural number
  *  @n: number
@@ -27,7 +26,5 @@ int square_root(int i, int j)
  */
 int _sqrt_recursion(int n)
 {
-	int a = 1;
-
-	return (square_root(n, a));
+	return (square_root(n, 0));
 }
