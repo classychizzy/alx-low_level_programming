@@ -1,4 +1,4 @@
-#ifndef _MAIN_H
+#ifndef _LIST_H
 #define _LIST_H
 #include <stdio.h>
 #include <stdlib.h>
