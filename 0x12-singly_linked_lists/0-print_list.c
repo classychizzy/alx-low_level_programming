@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <string.h>
 /**
- * size_t print_list - function that prints all elements in a list
+ * print_list - function that prints all elements in a list
  * @h: singly-linked lists
  * Return: number of elements in the list
  */
