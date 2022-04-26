@@ -1,11 +1,9 @@
-#include <stdlib.h>
-#include <string.h>
 #include "lists.h"
 #include <stdio.h>
 /**
  * print_listint- a function that prints all members of a linked list
  * @h:the head of the node
- * Return: members of the list
+ * Return: number of nodes
  **/
 size_t print_listint(const listint_t *h)
 {
@@ -13,13 +11,17 @@ size_t print_listint(const listint_t *h)
 
 	if (h == NULL)
 	{
-		printf("list is empty");
+		return (count);
 	}
-	while (h != NULL)
+
+	else
 	{
-		printf("%d", h->n);
-		h = h->next;
-		count++;
+		while (h != NULL)
+		{
+			printf("%d\n", h->n);
+			h = h->next;
+			count++;
+		}
 	}
 	return (count);
 }
