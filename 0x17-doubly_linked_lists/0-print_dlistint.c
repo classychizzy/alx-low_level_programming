@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * print_dlistint_t- a function that prints the nodes in a list
+ * print_dlistint_t - a function that prints the nodes in a list
  * @h: pointer to the list
  * Return: number of nodes in the list
  */
@@ -20,5 +20,5 @@ size_t print_dlistint(const dlistint_t *h)
 		nodes++;
 	}
 
-	return(nodes);
+	return (nodes);
 }
